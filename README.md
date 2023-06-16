@@ -1,11 +1,11 @@
-About r-deepnet
-===============
+About r-deepnet-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-deepnet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=deepnet
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-deepnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implement some deep learning architectures and neural network algorithms, including BP,RBM,DBN,Deep autoencoder and so on.
 
