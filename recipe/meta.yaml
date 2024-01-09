@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/deepnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/deepnet/deepnet_{{ version }}.tar.gz
-  sha256: 0f66d359269aecb03ca17d059004bb3dfc5dd1cd218baf544342ea030028ce3e
+  sha256: 0482a45808914213c9b455e1aa49b51a1ed836200c763f6edbfc731170e49925
 
 build:
   merge_build_host: true  # [win]
